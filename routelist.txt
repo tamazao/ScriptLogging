@@ -1,0 +1,21 @@
++--------+-----------+--------------------------+------------------+----------------------------------------+--------------+
+| Domain | Method    | URI                      | Name             | Action                                 | Middleware   |
++--------+-----------+--------------------------+------------------+----------------------------------------+--------------+
+|        | GET|HEAD  | api/user                 |                  | Closure                                | api,auth:api |
+|        | POST      | category                 | category.store   | App\Http\Controllers\category@store    | web          |
+|        | GET|HEAD  | category                 | category.index   | App\Http\Controllers\category@index    | web          |
+|        | GET|HEAD  | category/create          | category.create  | App\Http\Controllers\category@create   | web          |
+|        | GET|HEAD  | category/{category}      | category.show    | App\Http\Controllers\category@show     | web          |
+|        | DELETE    | category/{category}      | category.destroy | App\Http\Controllers\category@destroy  | web          |
+|        | PUT|PATCH | category/{category}      | category.update  | App\Http\Controllers\category@update   | web          |
+|        | GET|HEAD  | category/{category}/edit | category.edit    | App\Http\Controllers\category@edit     | web          |
+|        | GET|HEAD  | categoryList/{script}    |                  | App\Http\Controllers\categoryList@show | web          |
+|        | GET|HEAD  | categorylist/{script}    |                  | App\Http\Controllers\categoryList@show | web          |
+|        | POST      | script                   | script.store     | App\Http\Controllers\script@store      | web          |
+|        | GET|HEAD  | script                   | script.index     | App\Http\Controllers\script@index      | web          |
+|        | GET|HEAD  | script/create            | script.create    | App\Http\Controllers\script@create     | web          |
+|        | PUT|PATCH | script/{script}          | script.update    | App\Http\Controllers\script@update     | web          |
+|        | GET|HEAD  | script/{script}          | script.show      | App\Http\Controllers\script@show       | web          |
+|        | DELETE    | script/{script}          | script.destroy   | App\Http\Controllers\script@destroy    | web          |
+|        | GET|HEAD  | script/{script}/edit     | script.edit      | App\Http\Controllers\script@edit       | web          |
++--------+-----------+--------------------------+------------------+----------------------------------------+--------------+

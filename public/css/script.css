@@ -1,0 +1,26 @@
+.top-padding {
+  padding-top: 8px;
+}
+
+.panel-group-custom {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.panel-body-custom{
+  padding-bottom: 0px;
+  margin-right:  4px;
+}
+
+.panel-custom {
+  padding-right:5px;
+}
+
+.btn-custom{
+  height: 10px;
+  width: 10px;
+}
+
+.form-custom{
+  display: inline-block;
+}
